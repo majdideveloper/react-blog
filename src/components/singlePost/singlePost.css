@@ -43,10 +43,8 @@ color: tomato;
     line-height: 25px;
     font-size: 18px;
     text-align:justify;
-
 }
 .singlePostDesc::first-letter{
     font-size: 30px;
     font-weight: 900;
-
 }
