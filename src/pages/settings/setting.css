@@ -1,46 +1,54 @@
-.setting{
+.setting {
     display: flex;
 
 }
-.settingWrapper{
-    flex:9;
+
+.settingWrapper {
+    flex: 9;
     padding: 40px;
 }
-.settingTitle{
+
+.settingTitle {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.settingUpdateTitle{
+
+.settingUpdateTitle {
     font-size: 30px;
     margin-bottom: 20px;
     color: lightcoral;
 }
-.settingDeleteTitle{
+
+.settingDeleteTitle {
     font-size: 12px;
     cursor: pointer;
     color: red;
 }
-.settingForm{
+
+.settingForm {
     display: flex;
     flex-direction: column;
 }
-.settingPP{
+
+.settingPP {
     display: flex;
     align-items: center;
     margin: 10px 0;
 }
-.settingPP > img{
+
+.settingPP>img {
     width: 70px;
     height: 70px;
     border-radius: 20px;
     object-fit: cover;
 
 }
-.settingPPIcon{
+
+.settingPPIcon {
     width: 25px;
     height: 25px;
-    border-radius:50% ;
+    border-radius: 50%;
     background-color: lightcoral;
     color: white;
     display: flex;
@@ -50,31 +58,31 @@
     cursor: pointer;
 }
 
-.settingForm > label{
+.settingForm>label {
     font-size: 20px;
     margin-top: 20px;
 
 }
-.settingForm > input{
+
+.settingForm>input {
     color: gray;
-    margin: 10px 0 ;
+    margin: 10px 0;
     height: 30px;
     border: 1px solid lightgray;
     width: 50vh;
 
 }
-.settingSubmit{
+
+.settingSubmit {
     align-items: center;
     height: 50px;
     width: 50vh;
-   margin: auto;
-   font-size: 20px;
-   background-color: teal;
-   color: white;
-   border: none;
-   border-radius: 10px;
-   margin-top: 20px;
-   cursor: pointer;
+    margin: auto;
+    font-size: 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
 }
-
-
