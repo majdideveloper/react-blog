@@ -17,6 +17,8 @@ export default function Write() {
                     <textarea placeholder='Tell your story ... ' type="text" className='writeInput writeText'></textarea>
                 </div>
                 <button className="writeSubmit">Publish</button>
+
+                
             </form>
         </div>
     )
